@@ -1,0 +1,28 @@
+@import "../../../styles";
+
+
+.transaction-wrapper{
+  width: 100%;
+  min-height: 60px;
+  padding-bottom: 15px;
+  font-family: Signika, sans-serif;
+}
+
+.transaction-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__info{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+}
+
+.transaction-date{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}

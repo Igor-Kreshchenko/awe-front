@@ -1,0 +1,108 @@
+@import "../../../styles";
+
+.menu-wrapper{
+  width: 200px;
+  height: 100vh;
+  padding: 40px 10px 40px 10px;
+  font-family: Signika, sans-serif;
+  transition: .3s;
+
+  &.active{
+    width: 100px;
+  }
+}
+
+.menu{
+  &__close{
+    position: absolute;
+    color: white;
+    right: 15px;
+    top: 15px
+  }
+
+  &__logo{
+    text-align: center;
+    font-weight: bold;
+    color: $lightGray;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  &__profile{
+    text-align: center;
+  }
+
+  &__profile.logo{
+    width: 60px;
+  }
+
+  &__profile.name{
+    color: $lightGray;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  &__profile.name.active{
+    font-size: 12px;
+  }
+
+  &__links{
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  &__links-item{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $lightGray;
+    padding: 10px;
+    border-radius: 10px;
+    &:hover{
+      background: rgba(255, 255, 255, 0.13);
+    }
+
+    &__text{
+      display: none;
+    }
+    &__text.active{
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .menu-wrapper{
+    position: fixed;
+    background: $blue;
+    z-index: 100;
+    width: 300px;
+    left: -300px;
+  }
+
+  .menu-wrapper.active{
+    width: 300px;
+    left: 0;
+  }
+
+  .menu {
+    &__links-item{
+      &__text{
+        display: flex;
+        font-size: 25px;
+      }
+    }
+    &__lang {
+      background-color: red !important;
+    }
+    &__profile.name.active{
+      font-size: 25px;
+    }
+
+    &__logo{
+      font-size: 30px;
+    }
+  }
+}

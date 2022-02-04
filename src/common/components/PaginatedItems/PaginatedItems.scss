@@ -1,0 +1,40 @@
+@import "../../../styles";
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-item {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.page-link {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.page-active {
+    background-color: #4f6fc1;
+    color: white;
+    border-radius: 5px;
+}
+
+.page-link:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+
+.mapPage {
+    display: flex;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mapPage {
+        padding-top: 10px;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .mapPage {
+        padding-top: 10px;
+        flex-wrap: wrap;
+    }
+}

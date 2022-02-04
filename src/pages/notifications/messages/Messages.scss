@@ -1,0 +1,11 @@
+@import "../../../styles.scss";
+
+.notification__message{
+    width: 90%;
+    height: auto;
+    background-color:#f3f4f8;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: right;
+}

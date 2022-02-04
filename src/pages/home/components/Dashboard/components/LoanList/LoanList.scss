@@ -1,0 +1,33 @@
+.loan-header {
+    margin-bottom: 5px;
+    color: rgb(38, 24, 160);
+}
+
+.loan {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f3f4f8;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 30px;
+}
+
+.loan-item {
+    width: 100%;  
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: baseline;
+    margin: 5px 0;
+}
+
+.loan-item-description {
+    color: grey;
+    font-size: 15px;
+}
+
+.loan-item_block {
+    width: 30%;
+}

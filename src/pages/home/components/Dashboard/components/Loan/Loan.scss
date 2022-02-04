@@ -1,0 +1,28 @@
+@import "../../../../../../styles";
+
+.loan-wrapper{
+  background: white;
+  width: auto;
+  padding: 40px;
+  border-radius: 30px;
+  font-family: Signika, sans-serif;
+  overflow-y: scroll;
+  max-height: 100vh;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.loan{
+  &__description{
+    font-size: 14px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  &__title{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+}

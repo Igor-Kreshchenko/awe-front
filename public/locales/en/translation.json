@@ -1,0 +1,267 @@
+{
+  "landingPage": {
+    "auth": {
+      "register": "Register",
+      "login": "Login",
+      "greetings": "Welcome to our AwesomeBank app!"
+    },
+    "mainDescription": "Learning project developed by ElifTech Academy Team, based on React and Golang",
+    "yellowButton": "Get started",
+    "carousel": {
+      "1": {
+        "title": "Registration",
+        "description": "Just tap Register and you will be able to use our service"
+      },
+      "2": {
+        "title": "Payment cards",
+        "description": "Chose Your own card type"
+      },
+      "3": {
+        "title": "Transaction between users",
+        "description": "Make transactions and payment between users easily"
+      }
+    }
+  },
+  "bankData": {
+    "users": "Total users",
+    "transactions": "Total transactions",
+    "rate": "Exchange rate"
+  },
+  "cardsSidebar": {
+    "myCards": "My Digital Cards",
+    "myTransactions": "My Transactions",
+    "noCards": "You have not cards",
+    "noTransactions": "Empty",
+    "all": "All",
+    "incomes": "Incomes",
+    "costs": "Costs"
+  },
+  "dashboard": {
+    "loan": {
+      "title": "Get Instant Loan",
+      "description": "Get instant approval on the loan amount. The amount will be\ncredited to your wallet in less then 5 minutes.",
+      "buttonText": "Apply Now"
+    },
+    "moneyCharts": {
+      "savings": "Total Savings",
+      "expenses": "Total Expenses",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "today": "Today",
+      "thisWeek": "This week",
+      "thisMonth": "This month",
+      "myExpenses": "Your Expenses"
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "profile": "Profile",
+    "events": "Events",
+    "piggy": "Piggy",
+    "map": "Map",
+    "logout": "Logout"
+  },
+  "modals": {
+    "button_1": "Confirm",
+    "button_2": "Cancel",
+    "button_3": "Close",
+    "button_4": "Sending",
+    "button_5": "Change",
+    "button_6": "Create",
+    "amount": "Amount",
+    "term": "Loan term",
+    "loan": {
+      "title": "Loan",
+      "description": "Attention! You have to return money",
+      "success": "Money successfully credited",
+      "day": "Day",
+      "month": "Month",
+      "year": "Year"
+    },
+    "payLoan": {
+      "title": "Loan payment"
+    },
+    "create_card": {
+      "name": "First Name",
+      "surname": "Last Name",
+      "type": "Card Type",
+      "currency": "Card Currency",
+      "success": "Successfully created!",
+      "name_change": "You can change name",
+      "copied": "Copied!"
+    },
+    "create_transaction": {
+      "title": "Money Transfer",
+      "card": "Card",
+      "phone": "Phone",
+      "email": "Email",
+      "sendByCard": "Send By Card Number",
+      "sendByPhone": "Send By Phone Number",
+      "sendByEmail": "Send By Email",
+      "message": "Message",
+      "success": "Successfully transferred!"
+    }
+  },
+  "changePercent": {
+    "title": "Change percent",
+    "description": "Enter new piggy percent",
+    "percent": "Percent"
+  },
+  "forgotPassword": {
+    "didRemember": "Do you remember your password? - ",
+    "tryLoggin": "Login",
+    "email": "Email",
+    "send": "Send",
+    "forgotPassword": "Password recovery",
+    "loading": "Loading"
+  },
+  "resetPassword": {
+    "youCanUse": "You can use your new password to log in to your account",
+    "successfullReset": "Successful reset password",
+    "resetYourPassword": "Reset  your password",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "send": "Send",
+    "login": "Login",
+    "loading": "Loading"
+  },
+  "login": {
+    "login": "Login",
+    "loading": "Loading",
+    "loginButton": "Login",
+    "forgotYourPassword": "Forgot your password?",
+    "email": "Email",
+    "password": "Password",
+    "ifForgot": "Don't have an account yet? - ",
+    "register": "Register",
+    "or": "or"
+  },
+  "register": {
+    "login": "Login",
+    "firstName": "First Name",
+    "secondName": "Second Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "phone": "Phone number",
+    "ifForgot": "if you don't have an account yet.",
+    "register": "Register",
+    "date": "Date of Birth",
+    "loading": "Loading",
+    "haveAccount": "Already have an account? - "
+  },
+  "profile": {
+    "firstName": "First Name",
+    "secondName": "Second Name",
+    "email": "Email",
+    "phone": "Phone number",
+    "register": "Register",
+    "date": "Date of Birth",
+    "loading": "Loading",
+    "update": "Update",
+    "cancel": "Cancel",
+    "send": "Send",
+    "changePassword": "Change Password"
+  },
+  "validation": {
+    "EnterValidEmail": "Enter a valid email",
+    "FieldIsRequired": "Field is required",
+    "Min8Char": "At least 8 characters",
+    "PasswordsMustMatch": "Passwords must match",
+    "Want18Years": "You must be at least 18 years old",
+    "InvalidPhone": "Phone number is not valid",
+    "InvalidDate": "Invalid date"
+  },
+  "events": {
+    "allEvents": "All events",
+    "myEvents": "My events",
+    "modalWhere": "Where:",
+    "modalWhen": "When:",
+    "modalPrice": "Price:",
+    "modalBuyBtn": "Buy",
+    "errorMessage": "Something went wrong! Maybe you don't have enough money"
+  },
+  "loan": {
+    "Title": "Loans",
+    "CreatedAt": "Date",
+    "LoanAmount": "Loan amount",
+    "Term": "For the term",
+    "Month": "month",
+    "Interest": "Loan interest",
+    "HaveToPay": "Have to pay",
+    "MinMonthPaiment": "Monthly payment",
+    "NextPaymentDate": "Next payment date",
+    "Paid": "Paid",
+    "PayButton": "Pay"
+  },
+  "tickets": {
+    "deleteBtn": "Delete",
+    "owner": "Ticket owner:"
+  },
+  "piggy": {
+    "title": "Transfer money between your piggy and card",
+    "piggy": "Piggy",
+    "amount": "Amount",
+    "changePercent": "Change percent",
+    "card": "Card",
+    "noPiggy": "You don`t have piggy :(",
+    "noCard": "You don`t have card :(",
+    "createPiggy": "Create piggy",
+    "createPiggyForCard": "Create piggy for card",
+    "enterPercent": "Enter piggy percent",
+    "percent": "Percent",
+    "percentChanged": "Percent successfully changed !",
+    "piggyCreated": "Piggy successfully created !",
+    "transferedToCard": "Money successfully transfered to card !",
+    "transferedToPiggy": "Money successfully transfered to piggy !",
+    "transfer": {
+      "title": "Transfer money",
+      "description": "click to select to card or to piggy",
+      "transferToCard": "Transfer money to card",
+      "transferToPiggy": "Transfer money to piggy"
+    }
+  },
+  "map": {
+    "title": "Offices of banks around you",
+    "nobunks": "No banks offices around you",
+    "item": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "index": "Index"
+    }
+  },
+  "bankTransaction": {
+    "loan": "Loan",
+    "ticket": "Ticket",
+    "piggy": "Piggy",
+    "details": "Details"
+  },
+  "loginOauth": {
+    "error": "Error: ",
+    "goBack": "Go back"
+  },
+  "loginOauthGoogle": {
+    "loginWithGoogle": "Sign in with Google",
+    "loadingMessage": "Sign-in with Google. Please wait a bit"
+  },
+  "loginOauthFacebook": {
+    "loginWithFacebook": "Sign in with Facebook",
+    "loadingMessage": "Sign-in with Facebook. Please wait a bit"
+  },
+  "mfa": {
+    "title": "Сhoose an authentication method",
+    "placeholder": "Type your code and press Enter",
+    "btnEmail": "Email",
+    "btnPhone": "Phone",
+    "notification": "Message sent to "
+  },
+  "notifications": {
+    "headerText": "Notifications",
+    "reseive": "You reseived",
+    "from": "from",
+    "send": "You send",
+    "to": "to"
+  }
+}

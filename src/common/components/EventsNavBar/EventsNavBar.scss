@@ -1,0 +1,23 @@
+@import "../../../styles";
+
+.events_nav{
+    position: absolute;
+    top: 50px; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+
+.navlink{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #505050;
+}
+
+.navlink__active{
+    font-size: 28px;
+    font-weight: 700;
+}

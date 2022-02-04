@@ -1,0 +1,88 @@
+@import "../../../../../../styles";
+
+.create-card{
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  max-height: 100vh;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &__title{
+    font-family: "Roboto Thin", sans-serif;
+    padding-bottom: 10px;
+  }
+
+  &__fullname{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__show-card{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 30px 0;
+  }
+
+  &__show-switcher{
+    font-family: "Roboto Thin", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+  }
+
+  &__type-img{
+    width: 70px;
+  }
+
+  &__type{
+    padding-bottom: 30px;
+  }
+
+  &__main-buttons{
+    margin-top: 20px;
+    display: block;
+  }
+
+  &__success{
+    background: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title.success{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  &__success-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  &__error{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    margin: 3px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .create-card__fullname{
+    display: block;
+  }
+}
+

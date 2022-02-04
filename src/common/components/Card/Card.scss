@@ -1,0 +1,68 @@
+@import '../../../styles';
+
+.card{
+  background: linear-gradient(50deg, #4F30C1 53%, #582CD9 0%);
+  color: #efefef;
+  font-family: Signika, sans-serif;
+
+  &__number{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.card-upper-content{
+  &__chip{
+    width: 14%;
+    height: auto;
+    margin: 5%;
+  }
+
+  &__type{
+    width: auto;
+    height: 45%;
+    margin: 5%;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  height: 38%;
+  align-content: center;
+}
+
+.card-middle-content{
+  margin: 1.5% 5%;
+  display: flex;
+  font-weight: lighter;
+  justify-content: space-between;
+}
+
+.card-lower-content {
+  margin: 1.5% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &__info{
+    padding-top: 4%;
+    color: lightgray;
+    font-weight: lighter;
+    width: 100%;
+  }
+
+  &__item{
+    padding-top: 2%;
+    color: lightgray;
+    font-weight: lighter;
+    width: 100%;
+  }
+
+  &__item.name{
+    color: white;
+  }
+
+  .expiration{
+    margin-left: 5%;
+    color: white;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../../../../../styles.scss";
+
+.create-transaction{
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  max-height: 100vh;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &__title{
+    font-family: "Roboto Thin", sans-serif;
+    padding-bottom: 30px;
+  }
+
+  &__inputs{
+    padding: 30px 0 30px 0;
+  }
+
+  &__error{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    margin: 3px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .create-transaction {
+    padding: 15px;
+  }
+}

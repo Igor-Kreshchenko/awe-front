@@ -1,0 +1,256 @@
+ @import "../../styles.scss";
+
+ .container {
+    width: 100%;
+    background: url("./images/back2.jpg");
+     background-size: cover;
+}
+
+.logo-image {
+    width: 50px;
+    object-fit: contain;
+}
+
+.title-main-block {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;
+
+    .title-exchange {
+        margin-bottom: 10vh;
+        @media screen and (max-width: $tablet-breakpoint){
+            margin-bottom: 5vh;
+        }
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 15px;
+    @media screen and (max-width: 400px){
+        flex-direction: column;
+    }
+    .title-nav {
+        display: flex;
+        padding: 1rem;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 22px;
+        .nav-logo {
+            font-size: 22px;
+            color: black;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+    .title-nav-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .nav-element {
+            font-weight: 400;
+            cursor: pointer;
+            margin-right: 1rem;
+            :hover {
+                color: $orange;
+                border-bottom: 2px solid $orange;
+            }
+        }
+    }
+
+    .nav-lang {
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.title-navlinklogo {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    @media screen and (max-width:$tablet-breakpoint){
+        font-size: 24px;
+    }
+}
+
+.title-navlink {
+    text-decoration: none;
+    color: #C2C6D0;
+}
+
+.title-main {
+    margin-top: 3rem;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    @media screen and (max-width:$tablet-breakpoint){
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .title-description {
+        width: 35%;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        @media screen and (max-width:$tablet-breakpoint){
+            width: 100%;
+            margin-top: 2rem;
+            align-items: center;
+        }
+        .description-name {
+            color: black;
+            font-size: 45px;
+            font-weight: bold;
+            @media screen and (max-width:$tablet-breakpoint){
+                font-size: 24px;
+            }
+        }
+
+        .description-text {
+            margin-top: 1rem;
+            font-size: 24px;
+            color: white;
+            font-weight: 300;
+            line-height: 45px;
+            text-align: left;
+            font-family: 'Oswald', sans-serif;
+            @media screen and (max-width:$tablet-breakpoint){
+                line-height: 22px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .title-carousel {
+        width: 50%;
+        background-color: whitesmoke;
+        box-shadow: 5px 5px 12px black;
+        border-radius: 15px;
+        @media screen and (max-width:$tablet-breakpoint){
+            width: 84%;
+            margin-top: 2rem;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .slider-item {
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            .slider-item-name {
+                font-size: 32px;
+                font-weight: bold;
+                @media screen and (max-width:$tablet-breakpoint){
+                    font-size: 24px;
+                }
+            }
+
+            .slider-item-text {
+                margin-top: 1rem;
+                font-size: 20px;
+                font-weight: 300;
+                @media screen and (max-width:$tablet-breakpoint){
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.carousel-image {
+    object-fit: contain;
+    width: 500px;
+    margin: 1rem auto 1rem auto;
+    @media screen and (max-width:$tablet-breakpoint){
+        width: 200px;
+    }
+}
+
+.arrow {
+    background-color: black;
+}
+
+.title-footer {
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    @media screen and (max-width:$tablet-breakpoint){
+        flex-direction: column;
+        width: auto;
+    }
+
+    .footer-logo {
+        font-size: 24px;
+    }
+
+    .footer-links {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        .footer-link-wrap {
+            @media screen and (max-width:$tablet-breakpoint){
+                margin-top: 7px;
+            }
+        }
+
+        .footer-navlink {
+            color: black;
+        }
+        .footer-navlink-icon {
+            display: flex;
+            @media screen and (max-width:$tablet-breakpoint){
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+.button-wrap {
+    margin-top: 2rem;
+}
+
+.title-button {
+    color: black;
+    box-shadow: 5px 5px 12px black;
+    background-color: $orange;
+    padding: 2rem 3rem 2rem 3rem;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 28px;
+    border: none;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+
+    :hover {
+        background-color: whitesmoke;
+        color: $violet;
+    }
+
+    @media screen and (max-width:$tablet-breakpoint){
+        padding: 1rem;
+    }
+}

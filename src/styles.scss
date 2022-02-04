@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+$violet: #ac4c9d;
+$orange: #f66b0a;
+$lightGray: #f3f4f8;
+$blue: #4F30C1;
+$white: #fff;
+$blue: #4f30c1;
+$tablet-breakpoint: 1134px;
+$mobile-breakpoint: 750px;
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html {
+  padding: 0;
+}
+
+.auth_input {
+  height: 75px;
+  $mobile-breakpoint: 750px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

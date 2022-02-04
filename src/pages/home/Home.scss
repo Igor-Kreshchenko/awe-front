@@ -1,0 +1,25 @@
+@import "../../styles";
+
+.home-wrapper{
+  display: flex;
+  background: $blue;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.home-sidebar{
+  width: 350px;
+  position: relative;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .home-wrapper{
+    display: block;
+  }
+
+  .home-sidebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

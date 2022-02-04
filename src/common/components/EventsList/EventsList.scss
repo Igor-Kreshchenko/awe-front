@@ -1,0 +1,80 @@
+@import "../../../styles";
+
+.events_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.events_item{
+    width: calc(100%/3 - 20px);
+    margin: 10px;
+    transition: 200ms transform linear;
+    -webkit-box-shadow: 6px 8px 8px 0px rgba(12, 30, 44, 0.2);
+    -moz-box-shadow: 6px 8px 8px 0px rgba(12, 30, 44, 0.2);
+    box-shadow: 6px 8px 8px 0px rgba(12, 30, 44, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+
+    &:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+}
+
+.event_wrapper{
+    display: flex;
+    background-color: #4f6fc1;
+    padding: 10px;
+}
+
+.poster_wrapper{
+    min-width: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.event_poster{
+    display: block;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.event_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.event_data{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.event_price{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .events_item{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+    .events_item{
+        width: calc(100%/2 - 20px);
+    }
+
+    .poster_wrapper{
+        margin-right: 10px;
+    }
+}

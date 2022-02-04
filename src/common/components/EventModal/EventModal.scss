@@ -1,0 +1,89 @@
+@import "../../../styles";
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.event_modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  padding: 15px 70px 15px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.modal_close_btn {
+ position: absolute;
+ top: 15px;
+ right: 15px;
+ background-color: transparent;
+ border: 0;
+ cursor: pointer;
+}
+
+.modal_content {
+  width: 500px;
+}
+
+.poster_box {
+  min-width: 640px;
+  height: 427px;
+  margin-right: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.modal_title {
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.modal_list {
+  list-style: none;
+}
+
+.modal_list_item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.modal_text {
+  font-size: 24px;
+}
+
+.modal_btn {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  width: 210px;
+	height: 70px;
+	border-radius: 5px;
+	color: #fff;
+	background: #4f6fc1;
+	font: 700 24px sans-serif;
+	box-shadow:
+		0 1px 2px rgba(0,0,0,0.07),
+		0 2px 4px rgba(0,0,0,0.07),
+		0 4px 8px rgba(0,0,0,0.07),
+		0 8px 16px rgba(0,0,0,0.07),
+		0 16px 32px rgba(0,0,0,0.07),
+		0 32px 64px rgba(0,0,0,0.07);
+  cursor: pointer;
+}
+
+.error_message {
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff4c2a;
+}

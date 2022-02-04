@@ -1,0 +1,47 @@
+.banksItem {
+    margin-bottom: 25px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 15px;
+    background-color: #f3f4f8;
+
+    &__title {
+        font-size: 17px;
+        font-weight: 600;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    &__line {
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 10px;
+    }
+
+    &__content.email {
+        margin-bottom: 10px;
+    }
+
+    &__content-text {
+        word-break: break-all;
+        width: 70%;
+        text-align: right;
+    }
+
+    &__content.address {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    &__content.index {
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

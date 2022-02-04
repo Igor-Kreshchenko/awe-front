@@ -1,0 +1,112 @@
+@import "../../styles.scss";
+
+.profile {
+    &__user {
+        color: #505050;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+    }
+    &__send-btn {
+        margin-right: 3% !important;
+        color: $white !important;
+    }
+    &__cancel-btn {
+        color:$white !important;
+    }
+    &__box-border{
+        box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+        border-radius: 15px;
+    }
+
+    &__form {
+        color: $white;
+    }
+    &__credit-card {
+        &_title {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__main{
+        margin: 0 auto;
+    }
+    &__field {
+        font-size: 1.2rem;
+        margin-top: 10%;
+        &_second-name {
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+    }
+    &__name {
+        font-size: 1.2rem;
+    }
+    &__form-field {
+        margin-top: 5%;
+    }
+    &__table-cell {
+        font-size: 1.3rem!important;
+    }
+}
+
+.change-password-link {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 1210px) {
+    .profile {
+        &__user {
+            width: 71% !important;
+        }
+    }
+ }
+
+@media (max-width: 949px) {
+    .profile {
+        &__user {
+            width: 81% !important;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .profile {
+        &__user {
+            width: 91% !important;
+        }
+        &__date-phone {
+            flex-direction: column!important;
+        }
+        &__date-field {
+            margin-bottom: 6%;
+        }
+    }
+}
+
+@media (max-width: 567px) {
+    .profile {
+        &__field-email {
+            flex-direction: column!important;
+        }
+        &__form {
+            margin-left: 31px!important;
+        }
+        &__table-cell {
+            font-size: 1rem!important;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .profile {
+        &__field-email {
+            flex-direction: column!important;
+        }
+        &__form {
+            margin-left: 11px!important;
+        }
+        &__table-cell {
+            font-size: 0.8rem!important;
+        }
+    }
+}

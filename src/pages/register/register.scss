@@ -1,0 +1,103 @@
+.regist {
+  box-sizing: border-box;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 390px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 6px 9px 15px 1px #00000033;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &__title {
+    margin: 10px;
+  }
+
+  &__logo {
+    width: 33%;
+  }
+
+  &__error {
+    height: 30px;
+    margin-top: 10px;
+    color: red;
+    font-size: 0.8rem;
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  &__login {
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 23px;
+    width: 80%;
+    margin: auto;
+    &__link {
+      color: #582dda;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+.my_button {
+  background-color: red;
+}
+
+.double__field_box {
+  margin: auto 5px;
+}
+
+.double__field {
+  display: flex;
+  justify-content: space-between;
+  &_email {
+    margin-bottom: 2%;
+  }
+}
+.double__birth_phone {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .regist {
+    height: auto;
+    position: static;
+    transform: none;
+    width: 320px;
+    margin: 20px auto;
+    &__login {
+      position: static;
+    }
+  }
+
+  .double__field {
+    display: block;
+    &_email {
+      margin-top: 78px;
+      margin-bottom: 8px;
+    }
+    &_box {
+      margin-bottom: 10px;
+    }
+  }
+
+  .double__birth_phone {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .regist {
+    width: 320px;
+    margin: auto;
+  }
+}

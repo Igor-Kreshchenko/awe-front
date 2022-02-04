@@ -1,0 +1,26 @@
+.block {
+    &__success {
+        background: white;
+        width: 500px;
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title.success{
+        font-size: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+      }
+    
+      &__success-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        width: 100%;
+      }
+}
+

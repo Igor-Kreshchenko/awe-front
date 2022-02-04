@@ -1,0 +1,66 @@
+@import "../../../../../../styles";
+
+.money-board{
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  padding: 30px;
+  margin-top: 30px;
+  height: 173px;
+  &__title{
+    display: flex;
+    width: 100%;
+  }
+  &__percentage{
+    display: flex;
+    margin-left: 10px;
+    width: 20px;
+    font-size: 10px;
+    align-items: center;
+    background-color: rgba(248, 8, 8, 0.3);
+    padding: 1px 5px 1px 0;
+    border-radius: 5px;
+  }
+
+  &__percentage.up{
+    background-color: rgba(13, 230, 13, 0.3);
+  }
+
+  &__amount{
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  &__date-box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+  }
+  &__date{
+    color: grey;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+    .money_board{
+      width: 200px;
+      border-radius: 20px;
+      padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .money-board{
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .money-board{
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+

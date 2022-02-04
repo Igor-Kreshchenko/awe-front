@@ -1,0 +1,38 @@
+@import "../../../styles";
+
+.piggy {
+    background: linear-gradient(50deg, #0f9b0d 53%, #0fa70c 0%);
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+
+    &__nopiggy {
+        font-size: 25px;
+        display: flexbox;
+        text-align: center;    
+    }
+}
+
+.piggy-left-content__img {
+   margin-left: 15px;
+   width: 30%;
+   height: auto;
+}
+
+.piggy-right-content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+    padding: 5px 5px 5px 0;
+
+    &__percent {
+        font-size: 35px;
+    }
+
+    &__currency {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+}
+

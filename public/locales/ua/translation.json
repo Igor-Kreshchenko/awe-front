@@ -1,0 +1,265 @@
+{
+  "landingPage": {
+    "auth": {
+      "register": "Зареєструватись",
+      "login": "Увійти",
+      "greetings": "Вітаємо вас у AwesomeBank!"
+    },
+    "mainDescription": "Навчальний додаток, що розроблявся командою ElifTech Academy. Онлайн банк, розроблений на таких технологіях React і Golang",
+    "yellowButton": "Розпочати",
+    "carousel": {
+      "1": {
+        "title": "Реєстрація",
+        "description": "Просто нажміть Зареєструватись і користуйтесь можливостями додатку"
+      },
+      "2": {
+        "title": "Платіжні картки",
+        "description": "Виберіть карту яка підходить саме Вам"
+      },
+      "3": {
+        "title": "Транзакції між користувачами",
+        "description": "Проводіть платежі і транзакції натисненням декількох кнопок"
+      }
+    }
+  },
+  "bankData": {
+    "users": "Користувачі",
+    "transactions": "Транзакції",
+    "rate": "Курс"
+  },
+  "cardsSidebar": {
+    "myCards": "Мої Картки",
+    "myTransactions": "Мої Транзакції",
+    "noCards": "У вас немає карток",
+    "noTransactions": "Пусто",
+    "all": "Всі",
+    "incomes": "Доходи",
+    "costs": "Витрати"
+  },
+  "dashboard": {
+    "loan": {
+      "title": "Миттєва позика",
+      "description": "Отримайте негайне затвердження позики. Сума буде зарахована\nна ваш гаманець менш ніж за 5 хвилин.",
+      "buttonText": "Подати Заявку"
+    },
+    "moneyCharts": {
+      "savings": "Загальні Накопичення",
+      "expenses": "Загальні Витрати",
+      "day": "День",
+      "week": "Тиждень",
+      "month": "Місяць",
+      "today": "Сьогодні",
+      "thisWeek": "За Тиждень",
+      "thisMonth": "За Місяць",
+      "myExpenses": "Ваші витрати"
+    }
+  },
+  "menu": {
+    "home": "Головна",
+    "profile": "Профіль",
+    "events": "Заходи",
+    "piggy": "Скарбничка",
+    "map": "Мапа",
+    "logout": "Вийти"
+  },
+  "modals": {
+    "button_1": "Підтвердити",
+    "button_2": "Скасувати",
+    "button_3": "Закрити",
+    "button_4": "Надсилання",
+    "button_5": "Змінити",
+    "button_6": "Створити",
+    "amount": "Сума",
+    "term": "Термін позики",
+    "loan": {
+      "title": "Позика",
+      "description": "Увага! Ви повинні повернути гроші",
+      "success": "Гроші успішно зараховані",
+      "day": "День",
+      "month": "Місяць",
+      "year": "Рік"
+    },
+    "payLoan": {
+      "title": "Платіж за позикою"
+    },
+    "create_card": {
+      "name": "Ім'я",
+      "surname": "Прізвище",
+      "type": "Тип",
+      "currency": "Валюта",
+      "success": "Картка успішно створена!",
+      "name_change": "Ви можете змінити ім'я",
+      "copied": "Скопійовано!"
+    },
+    "create_transaction": {
+      "title": "Грошовий переказ",
+      "card": "Карта",
+      "phone": "Телефон",
+      "email": "Електронна пошта",
+      "sendByCard": "За Номером карти",
+      "sendByPhone": "За Номером телефона",
+      "sendByEmail": "За Електронною поштою",
+      "message": "Повідомлення",
+      "success": "Гроші успішно перераховані"
+    }
+  },
+  "changePercent": {
+    "title": "Змінити відсоток",
+    "description": "Ввести новий відсоток скарбнички",
+    "percent": "Відсоток"
+  },
+  "forgotPassword": {
+    "didRemember": "Пам'ятаєте пароль? - ",
+    "tryLoggin": "Увійти",
+    "email": "Електронна Пошта",
+    "send": "Відправити",
+    "forgotPassword": "Відновнення паролю",
+    "loading": "Завантаження"
+  },
+  "resetPassword": {
+    "youCanUse": "Ви можете використовувати свій новий пароль для входу у свій обліковий запис ",
+    "successfullReset": "Пароль змінено",
+    "resetYourPassword": "Змінити пароль",
+    "password": "Пароль",
+    "confirmPassword": "Підтведити пароль",
+    "send": "Відправити",
+    "login": "Логін",
+    "loading": "Завантаження"
+  },
+  "login": {
+    "login": "Вхід",
+    "loading": "Завантаження",
+    "loginButton": "Увійти",
+    "forgotYourPassword": "Забули свій пароль?",
+    "email": "Електронна Пошта",
+    "password": "Пароль",
+    "ifForgot": "Ще немає облікового запису? - ",
+    "register": "Зареєструватись",
+    "or": "або"
+  },
+  "register": {
+    "login": "Увійти",
+    "loading": "Завантаження",
+    "firstName": "Ім'я",
+    "secondName": "Прізвище",
+    "email": "Електронна Пошта",
+    "password": "Пароль",
+    "confirmPassword": "Підтведити пароль",
+    "date": "Дата народження",
+    "haveAccount": "Вже є аккаунт? - ",
+    "phone": "Номер телефону",
+    "register": "Реєстрація"
+  },
+  "profile": {
+    "firstName": "Ім'я",
+    "secondName": "Прізвище",
+    "email": "Електронна Пошта",
+    "phone": "Номер телефону",
+    "date": "Дата народження",
+    "update": "Оновити",
+    "cancel": "Відмінити",
+    "loading": "Загрузка",
+    "send": "Відправити",
+    "changePassword": "Змінити пароль"
+  },
+  "validation": {
+    "EnterValidEmail": "Не коректна електронна адреса",
+    "FieldIsRequired": "Обов'язкове поле",
+    "Min8Char": "Мінімум 8 символів",
+    "PasswordsMustMatch": "Паролі не збігаються",
+    "Want18Years": "Реєстрація тільки з 18 років",
+    "InvalidPhone": "Не коректний телефонний номер",
+    "InvalidDate": "Не коректна дата"
+  },
+  "events": {
+    "allEvents": "Всі заходи",
+    "myEvents": "Мої заходи",
+    "modalWhere": "Де:",
+    "modalWhen": "Коли:",
+    "modalPrice": "Ціна:",
+    "modalBuyBtn": "Придбати",
+    "errorMessage": "Щось пішло не так! Можливо на вашому рахунку недостатньо коштів"
+  },
+  "loan": {
+    "Title": "Позики",
+    "CreatedAt": "Дата",
+    "LoanAmount": "Сума позики",
+    "Term": "На термін",
+    "Month": "місяців",
+    "Interest": "Кредитний відсоток",
+    "HaveToPay": "Сума до виплати",
+    "MinMonthPaiment": "Місячний платіж",
+    "NextPaymentDate": "Наступний платіж",
+    "Paid": "Сплачено",
+    "PayButton": "Сплатити"
+  },
+  "tickets": {
+    "deleteBtn": "Видалити",
+    "owner": "Власник квитка:"
+  },
+  "piggy": {
+    "title": "Пересилай кошти між скарбничкою та карткою",
+    "piggy": "Скарбничка",
+    "amount": "Сума",
+    "changePercent": "Змінити відсоток",
+    "card": "Картка",
+    "noPiggy": "У вас немає скарбнички :(",
+    "noCard": "У вас немає картки :(",
+    "createPiggy": "Створити скарбничку",
+    "createPiggyForCard": "Створити скарбничку для картки",
+    "enterPercent": "Ввести відсоток скарбнички",
+    "percent": "Відсоток",
+    "percentChanged": "Відсоток успішно змінено !",
+    "piggyCreated": "Скарбничку успішно створено !",
+    "transferedToCard": "Кошти успішно переведені на картку !",
+    "transferedToPiggy": "Кошти успішно переведені на скарбничку !",
+    "transfer": {
+      "title": "Переслати кошти",
+      "description": "натисни, щоб вибрати на картку чи на скарбничку",
+      "transferToCard": "Надіслати кошти на картку",
+      "transferToPiggy": "Надіслати кошти на скарбничку"
+    }
+  },
+  "map": {
+    "title": "Офіси банків навколо вас",
+    "nobunks": "Немає офісів банків навколо вас",
+    "item": {
+      "phone": "Телефон",
+      "email": "Електронна адреса",
+      "address": "Адреса",
+      "index": "Індекс"
+    }
+  },
+  "bankTransaction": {
+    "loan": "Позика",
+    "ticket": "Квиток",
+    "piggy": "Скарбничка",
+    "details": "Деталі"
+  },
+  "loginOauth": {
+    "error": "Помилка: ",
+    "goBack": "Назад"
+  },
+  "loginOauthGoogle": {
+    "loginWithGoogle": "Вхід через Google",
+    "loadingMessage": "Вхід через Google. Зачекайте будь-ласка"
+  },
+  "loginOauthFacebook": {
+    "loginWithFacebook": "Вхід через Facebook",
+    "loadingMessage": "Вхід через Facebook. Зачекайте будь-ласка"
+  },
+  "mfa": {
+    "title": "Виберіть метод автентифікації",
+    "placeholder": "Введіть код та натисніть Enter",
+    "btnEmail": "Пошта",
+    "btnPhone": "Телефон",
+    "notification": "Повідомлення відправлено на "
+  },
+  "notifications": {
+    "headerText": "Сповіщення",
+    "reseive": "Ви отримали",
+    "from": "від",
+    "send": "Ви перерахували",
+    "to": "до"
+  }
+}
